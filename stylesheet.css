@@ -1,0 +1,77 @@
+:root {
+    --blue: #2C7DFA;
+    --blue-shade: #3685ff;
+    --dark-navy: #1F314F;
+    --grey: #7D889E;
+    --light-grey: #D5E1EF;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--light-grey);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.main-container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.qr-code-component {
+    width: 320px;
+}
+
+.qr-code {
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qr-code img {
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.qr-code h1 {
+    color: var(--dark-navy);
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.qr-code p {
+    color: var(--grey);
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.1875px;
+    margin: 16px 16px 24px 16px;
+}
+
+.attribution {
+    justify-content: center;
+    color: var(--blue);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--blue);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.attribution a:hover {
+    color: var(--grey);
+}
