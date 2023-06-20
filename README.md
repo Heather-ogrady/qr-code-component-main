@@ -17,7 +17,7 @@ challenge on Frontend Mentor.
 ### Screenshot
 The following is a screenshot of the final project.
 
-![](./images/screenshot.png)
+![](images/screenshot.png)
 
 
 
