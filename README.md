@@ -15,8 +15,11 @@ This is a solution to the QR code component
 challenge on Frontend Mentor.
 
 ### Screenshot
+The following is a screenshot of the final project.
 
 ![](./images/screenshot.png)
+
+
 
 
 ### Built with
